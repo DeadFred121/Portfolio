@@ -97,6 +97,10 @@
     margin-top: 10px;
     height: 200px;
   }
+
+  .icon-container {
+    flex-direction: row;
+  }
 }
 /*This is the desktop screen display for the grid*/
 
