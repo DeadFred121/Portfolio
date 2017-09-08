@@ -214,3 +214,11 @@
 body {
   margin: 0;
 }
+
+body.iestyle {
+
+  .content {
+    height: 1000px;
+  }
+
+}
