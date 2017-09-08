@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300|Libre+Barcode+39+Text" rel="stylesheet">
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <%= render 'shared/menu' %>
+      <%= yield %>
+
+      <footer class="main-footer">
+        <%= link_to "Contact Me", contact_path, as: 'contact', class: "footer_link"%>
+      </footer>
+    </div>
+</html>
