@@ -82,17 +82,22 @@
   }
 
   .content-box {
-    height: 100%;
-    width: 100%;
+    height: 450px;
+    width: auto;
   }
 
   #logo-img {
-    margin-top: 10px;
+    margin-top: 50px;
     height: 250px;
     width: auto;
   }
 }
-
+@media (min-width: 360px) {
+  #logo-img {
+    margin-top: 10px;
+    height: 200px;
+  }
+}
 /*This is the desktop screen display for the grid*/
 
 @media (min-width: 768px) {
@@ -197,7 +202,9 @@
 }
 
 .content {
+  display: flex;
   background-color: #FAA916;
+  justify-content: center;
 }
 
 body {
