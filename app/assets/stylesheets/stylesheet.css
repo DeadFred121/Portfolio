@@ -81,10 +81,6 @@
     flex-direction: column;
   }
 
-  .content-box {
-    height: 450px;
-    width: auto;
-  }
 
   #logo-img {
     margin-top: 50px;
@@ -192,6 +188,7 @@
 .content-box {
   text-align: center;
   margin-top: 25px;
+  overflow: scroll;
 }
 
 .main-footer {
@@ -219,7 +216,8 @@
 
 .blurb {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  margin: 5px;
 }
 
 body {
@@ -231,5 +229,6 @@ body.iestyle {
   .content {
     height: 1000px;
   }
+
 
 }
