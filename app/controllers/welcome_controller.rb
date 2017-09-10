@@ -16,4 +16,7 @@ class WelcomeController < ApplicationController
     @page_description = 'Description of Author'
     @page_keywords    = 'Description, Author, Details'
   end
+
+  def Projects
+  end
 end
